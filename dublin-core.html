@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dublin Core</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/admin.css">
+</head>
+<body>
+<div class="container ">
+  <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand ">
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="./index.html" class="navbar-item ml-5">
+          Главная
+        </a>
+        <a href="./media.html" class="navbar-item">
+          Видео
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Виды
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="schema.html" class="navbar-item">
+              Schema.org
+            </a>
+            <a href="open-graph.html" class="navbar-item">
+              Open Graph
+            </a>
+            <a href="dublin-core.html" class="navbar-item">
+              Dublin Core
+            </a>
+            <a href="microformats.html" class="navbar-item">
+              Microformats
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+</br>
+<!-- END NAV -->
+<div class="container">
+  <div class="columns">
+    <div class="column is-2 ">
+      <aside class="menu is-hidden-mobile">
+
+        <ul class="menu-list">
+          <li><a href="./index.html">Главная</a></li>
+          <li><a href="./media.html">Видео</a></li>
+        </ul>
+        <p class="menu-label">
+          Виды
+        </p>
+        <ul class="menu-list">
+          <li><a href="schema.html">Schema.org</a></li>
+          <li><a href="open-graph.html">Open Graph</a></li>
+          <li><a href="dublin-core.html">Dublin Core</a></li>
+          <li><a href="microformats.html">Microformats</a></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="column is-10">
+
+      <h3 class="title is-2">
+        Микроразметка Dublin Core
+      </h3>
+
+      <p class="is-size-4 has-text-weight-bold">
+        Dublin Core — микроразметка, которая обеспечивает тематическое разделение страниц сайта и веб-приложений.
+        Как настроить микроразметку Dublin Core читайте внутри статьи.
+      </p>
+
+      </br>
+      <p class="is-size-5">
+        Микроразметка Dublin Core была создана в 1995 г. для формирования большой библиотеки сайтов во всемирной паутине.
+        Разметка создана для стандартизации всемирной паутины. Позволяет тематически разделить всей сайты и их страницы во всемирной паутине.
+      </p>
+      </br>
+
+      <p class="is-size-5">
+        Dublin Core разработана международной междисциплинарной группой профессионалов библиотечного дела, компьютерных
+        наук, кодирования текстов, музейного дела и других смежных групп.
+      </p>
+      </br>
+
+
+      <h3 class="title is-3">
+        Основные теги Dublin Core
+      </h3>
+
+      <ul class="is-size-5">
+        <li><b>DC.title</b> – Заголовок. Аналогичен стандартному мета-тегу Title</li>
+        <li><b>oDC.creator</b> – Автор проекта. Лицо, несущее ответственность за создание веб-сайта</li>
+        <li><b>DC.subject</b> – Ключевые слова страницы. Аналогичны мета-тегу keywords. Допускается наличие
+          нескольких тегов subject, которые содержат разные ключевые слова</li>
+        <li><b>DC.description</b> – Описание страницы. Аналогичен стандартному мета-тегу description.
+          Содержимое тега может не совпадать с мета-тегом description. Описание может быть любого размера</li>
+        <li><b>DC.publisher</b> – Издатель. Лицо, несущее ответственность за предоставление ресурса пользователям.
+          Может принимать значения: ФИО человека, названия организации или службы</li>
+        <li><b>DC.publisher.url</b> – Полная ссылка на сайт издателя</li>
+      </ul>
+      </br>
+
+      <p class="is-size-5">
+        Все элементы набора факультативны и повторяемы. Элементы метаданных могут появляться в любом порядке.
+      </p>
+      </br>
+
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer container">
+  <!-- Copyright symbol of company -->
+  </br>
+
+  <!-- Three columns created using columns class of Bulma -->
+  <div class="columns">
+    <!-- Column 1 -->
+    <div class="column">
+
+      <!-- Heading is left aligned, medium weight -->
+      <h4 class="bd-footer-title
+                 has-text-weight-medium
+                 has-text-left">
+        Микроразметка
+      </h4>
+
+
+    </div>
+
+    <!-- Column 2 -->
+    <div class="column">
+      <h4 class="bd-footer-title
+                 has-text-weight-medium
+                 has-text-justify">
+        Основное
+      </h4>
+
+      <!-- Column 2 lists with links -->
+      <p class="bd-footer-link">
+        <a href="./index.html">
+          <span class="icon-text">
+            <span>Главное</span>
+          </span>
+        </a>
+        <br />
+        <a href="./media.html">
+              <span class="icon-text">
+                <span>Видео</span>
+              </span>
+        </a>
+      </p>
+
+    </div>
+
+    <!-- Column 3 -->
+    <div class="column">
+      <h4 class="bd-footer-title
+                 has-text-weight-medium
+                 has-text-justify">
+        Виды
+      </h4>
+
+      <!-- Column 3 lists with links -->
+      <p class="bd-footer-link">
+        <a href="schema.html">
+              <span class="icon-text">
+                <span>Schema.org</span>
+              </span>
+        </a>
+        <br />
+        <a href="open-graph.html">
+              <span class="icon-text">
+                <span>Open Graph</span>
+              </span>
+        </a>
+        <br />
+        <a href="dublin-core.html">
+              <span class="icon-text">
+                <span>Dublin Core</span>
+              </span>
+        </a>
+        <br />
+        <a href="microformats.html">
+              <span class="icon-text">
+                <span>Microformats</span>
+              </span>
+        </a>
+      </p>
+
+    </div>
+  </div>
+</footer>
+<script async type="text/javascript" src="./bulma.js"></script>
+</body>
+</html>
